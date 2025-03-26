@@ -10,7 +10,7 @@
 <!-- Navbar with logo and dropdown -->
 <div class="navbar">
   <div class="logo">
-    <img src="images/logo.png" alt="Logo">
+    <img src="images/logo_small.png" alt="Logo">
   </div>
   <div class="dropdown">
     <button class="dropbtn">Menu</button>

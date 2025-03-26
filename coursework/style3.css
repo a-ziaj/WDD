@@ -161,3 +161,16 @@ a.highlight {
 .dropdown:hover .dropbtn {
     background-color: #3F3F3F;
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #3F3F3F;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 1rem;
+}
+
