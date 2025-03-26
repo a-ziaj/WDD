@@ -26,7 +26,7 @@ body {
 
 #top-bar .icon {
     width: 20px;
-    height: 20px;
+    height: auto;
     margin-right: 1rem;
 }
 
