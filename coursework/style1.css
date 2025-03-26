@@ -17,6 +17,13 @@ body {
     color: white;
     text-align: left;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+#top-bar img.logo {
+    height: 5px;
+    margin-right: 1rem;
 }
 
 #top-bar a {
@@ -104,3 +111,4 @@ a.highlight {
     color: red;
     text-decoration: underline;
 }
+
