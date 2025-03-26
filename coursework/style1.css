@@ -17,12 +17,16 @@ body {
     color: white;
     text-align: left;
     z-index: 1000;
+}
+
+#top-bar {
     display: flex;
     align-items: center;
 }
 
-#top-bar img.logo {
-    height: 5px;
+#top-bar .icon {
+    width: 20px;
+    height: 20px;
     margin-right: 1rem;
 }
 
@@ -111,4 +115,3 @@ a.highlight {
     color: red;
     text-decoration: underline;
 }
-
