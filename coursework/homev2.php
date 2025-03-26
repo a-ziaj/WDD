@@ -18,6 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 
 <div id="top-bar">
+    <img src="images/logo.png" alt="Logo" class="logo">
     <a href="test.php">Option 1</a>
     <a href="test.php">Option 2</a>
     <a href="test.php">Option 3</a>
@@ -72,6 +73,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         rotate();
     });
 </script>
+
+</body>
+</html>
+
 
 </body>
 </html>
