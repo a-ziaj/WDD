@@ -12,13 +12,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
     <link rel="icon" href="images/logo.png" type="image/png">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
     <script src="https://cdn.jsdelivr.net/npm/ngl@2.0.0-dev.38/dist/ngl.js"></script>
 </head>
 <body>
 
 <div id="top-bar">
-    <img src="images/logo.png" alt="Logo" class="logo">
     <a href="test.php">Option 1</a>
     <a href="test.php">Option 2</a>
     <a href="test.php">Option 3</a>
@@ -73,10 +72,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         rotate();
     });
 </script>
-
-</body>
-</html>
-
 
 </body>
 </html>
