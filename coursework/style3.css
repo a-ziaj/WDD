@@ -163,11 +163,17 @@ a.highlight {
 }
 
 .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Keeps it above other content */
+    background-color: white; /* So it doesn't show what's underneath */
     display: flex;
     align-items: center;
     padding: 1rem;
     background-color: #3F3F3F;
 }
+
+
 
 .logo img {
     height: 100px;
