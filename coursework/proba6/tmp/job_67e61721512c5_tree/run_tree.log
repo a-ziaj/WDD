@@ -1,0 +1,2 @@
+Command: /bin/bash run_tree.sh 'tmp/ABC transporters_Aves_sequences.fasta' 'tmp/job_67e61721512c5_tree' 'job_67e61721512c5' 2>&1
+Output:

@@ -2,7 +2,7 @@
 session_start();
 
 // Include database connection details
-require_once '/home/s2713107/includes/login.php';
+require_once '/home/s2713107/login.php';
 
 // Initialize variables
 $protein_family = '';

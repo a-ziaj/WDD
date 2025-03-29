@@ -1,0 +1,6 @@
+Create a distance matrix from a multiple sequence alignment
+Multiple substitution correction methods for proteins
+         0 : Uncorrected
+         1 : Jukes-Cantor
+         2 : Kimura Protein
+Method to use [0]: Error: Unable to get reply from user - end of standard input

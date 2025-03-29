@@ -1,0 +1,10 @@
+=== Starting tree generation ===
+Date: Fri Mar 28 05:13:44 GMT 2025
+Job ID: job_67e62df283386
+Running clustalo...
+Running distmat...
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-pg435hrr because the default path (/var/www/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Error: could not convert string to float: 'Matrix'
+=== Process completed ===
+Command: /bin/bash run_tree.sh 'tmp/ABC transporters_Aves_sequences.fasta' 'tmp/job_67e62df283386_tree' 'job_67e62df283386' 2>&1
+Output:

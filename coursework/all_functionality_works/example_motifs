@@ -1,0 +1,25 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Thu 27 Mar 2025 23:39:57
+# Commandline: patmatmotifs
+#    -sequence example.fasta
+#    -outfile example_motifs
+#    -full
+# Report_format: dbmotif
+# Report_file: example_motifs
+########################################
+
+#=======================================
+#
+# Sequence: 6NNGF     from: 1   to: 384
+# HitCount: 0
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

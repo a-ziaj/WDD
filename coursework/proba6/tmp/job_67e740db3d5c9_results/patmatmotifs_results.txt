@@ -1,0 +1,25 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Sat 29 Mar 2025 00:38:06
+# Commandline: patmatmotifs
+#    -sequence "tmp/ABC transporters_Aves_sequences.fasta"
+#    -outfile tmp/job_67e740db3d5c9_results/patmatmotifs_results.txt
+#    -full
+# Report_format: dbmotif
+# Report_file: tmp/job_67e740db3d5c9_results/patmatmotifs_results.txt
+########################################
+
+#=======================================
+#
+# Sequence: 6NNGF     from: 1   to: 384
+# HitCount: 0
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,11 @@
+Alignment Statistics
+===================
+Number of sequences: 2
+Alignment length: 384
+Conservation method: plotcon
+Window size: 4
+
+Suggested Next Steps:
+- Check conserved regions against known domains in InterPro
+- Compare variable regions with taxonomic groups
+- Validate functional predictions with experimental data

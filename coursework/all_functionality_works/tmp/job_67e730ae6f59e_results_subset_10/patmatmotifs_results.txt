@@ -1,0 +1,75 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Fri 28 Mar 2025 23:29:06
+# Commandline: patmatmotifs
+#    -sequence "tmp/ABC transporters_Human_subset_10.fasta"
+#    -outfile tmp/job_67e730ae6f59e_results_subset_10/patmatmotifs_results.txt
+#    -full
+# Report_format: dbmotif
+# Report_file: tmp/job_67e730ae6f59e_results_subset_10/patmatmotifs_results.txt
+########################################
+
+#=======================================
+#
+# Sequence: NP_001274103.1     from: 1   to: 1582
+# HitCount: 5
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 295 of sequence
+End = position 298 of sequence
+
+Motif = AMIDATION
+
+ALSHAFGRRLVLSS
+     |  |
+   295  298
+
+Length = 8
+Start = position 1379 of sequence
+End = position 1386 of sequence
+
+Motif = ATP_GTP_A
+
+KIGICGRTGSGKSSFSLA
+     |      |
+  1379      1386
+
+Length = 8
+Start = position 713 of sequence
+End = position 720 of sequence
+
+Motif = ATP_GTP_A
+
+LTMIVGQVGCGKSSLLLA
+     |      |
+   713      720
+
+Length = 15
+Start = position 1482 of sequence
+End = position 1496 of sequence
+
+Motif = ABC_TRANSPORTER_1
+
+EGGENFSQGQRQLFCLARAFVRKTS
+     |             |
+  1482             1496
+
+Length = 15
+Start = position 830 of sequence
+End = position 844 of sequence
+
+Motif = ABC_TRANSPORTER_1
+
+ERGINLSGGQRQRISVARALYQHAN
+     |             |
+   830             844
+
+
+#---------------------------------------
+#---------------------------------------

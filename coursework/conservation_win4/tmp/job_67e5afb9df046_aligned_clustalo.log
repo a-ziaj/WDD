@@ -1,0 +1,6 @@
+Running Clustal Omega...
+Using 1 threads
+Read 2 sequences (type: Protein) from /localdisk/home/s2713107/public_html/coursework/coursework/proba6/tmp/ABC transporters_Aves_sequences.fasta
+not more sequences (2) than cluster-size (100), turn off mBed
+Progressive alignment progress: 100 % (1 out of 1)Progressive alignment progress done. CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00
+Alignment written to /localdisk/home/s2713107/public_html/coursework/coursework/proba6/tmp/job_67e5afb9df046_aligned.aln

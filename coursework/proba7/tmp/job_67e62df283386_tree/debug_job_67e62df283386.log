@@ -1,0 +1,178 @@
++ echo '=== PHYLOGENETIC TREE GENERATION ==='
+=== PHYLOGENETIC TREE GENERATION ===
+++ date
++ echo 'Start time: Fri Mar 28 05:12:40 GMT 2025'
+Start time: Fri Mar 28 05:12:40 GMT 2025
++ echo 'Job ID: job_67e62df283386'
+Job ID: job_67e62df283386
++ echo 'FASTA file: tmp/ABC transporters_Aves_sequences.fasta'
+FASTA file: tmp/ABC transporters_Aves_sequences.fasta
++ echo 'Results dir: tmp/job_67e62df283386_tree'
+Results dir: tmp/job_67e62df283386_tree
+++ whoami
++ echo 'Current user: www-data'
+Current user: www-data
+++ pwd
++ echo 'Working directory: /localdisk/home/s2713107/public_html/coursework/coursework/proba6'
+Working directory: /localdisk/home/s2713107/public_html/coursework/coursework/proba6
++ echo Environment:
+Environment:
++ printenv
+PWD=/localdisk/home/s2713107/public_html/coursework/coursework/proba6
+APACHE_LOG_DIR=/var/log/apache2
+LANG=C
+INVOCATION_ID=4ef02eb69d5a41d283a27446c840fa81
+APACHE_PID_FILE=/var/run/apache2/apache2.pid
+APACHE_RUN_GROUP=www-data
+APACHE_LOCK_DIR=/var/lock/apache2
+SHLVL=1
+APACHE_RUN_DIR=/var/run/apache2
+JOURNAL_STREAM=8:460731271
+APACHE_RUN_USER=www-data
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+OLDPWD=/
+_=/usr/bin/printenv
++ echo ===================================
+===================================
++ mkdir -vp tmp/job_67e62df283386_tree
++ chmod -v 777 tmp/job_67e62df283386_tree
+mode of 'tmp/job_67e62df283386_tree' retained as 0777 (rwxrwxrwx)
++ '[' '!' -f 'tmp/ABC transporters_Aves_sequences.fasta' ']'
++ ALIGN_FILE=tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta
++ DIST_MATRIX=tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat
++ TREE_NJ=tmp/job_67e62df283386_tree/job_67e62df283386_nj.tree
++ TREE_PGMA=tmp/job_67e62df283386_tree/job_67e62df283386_pgma.tree
++ PNG_NJ=tmp/job_67e62df283386_tree/job_67e62df283386_nj.png
++ PNG_PGMA=tmp/job_67e62df283386_tree/job_67e62df283386_pgma.png
++ echo '=== OUTPUT FILES ==='
+=== OUTPUT FILES ===
++ echo 'Alignment: tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta'
+Alignment: tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta
++ echo 'Distance matrix: tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat'
+Distance matrix: tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat
++ echo 'NJ Tree: tmp/job_67e62df283386_tree/job_67e62df283386_nj.tree'
+NJ Tree: tmp/job_67e62df283386_tree/job_67e62df283386_nj.tree
++ echo 'PGMA Tree: tmp/job_67e62df283386_tree/job_67e62df283386_pgma.tree'
+PGMA Tree: tmp/job_67e62df283386_tree/job_67e62df283386_pgma.tree
++ echo 'NJ PNG: tmp/job_67e62df283386_tree/job_67e62df283386_nj.png'
+NJ PNG: tmp/job_67e62df283386_tree/job_67e62df283386_nj.png
++ echo 'PGMA PNG: tmp/job_67e62df283386_tree/job_67e62df283386_pgma.png'
+PGMA PNG: tmp/job_67e62df283386_tree/job_67e62df283386_pgma.png
++ echo ====================
+====================
++ echo '=== STEP 1: SEQUENCE ALIGNMENT ==='
+=== STEP 1: SEQUENCE ALIGNMENT ===
++ command -v clustalo
++ clustalo -i 'tmp/ABC transporters_Aves_sequences.fasta' -o tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta --force --threads=1 --outfmt=fasta --verbose
+Using 1 threads
+Read 2 sequences (type: Protein) from tmp/ABC transporters_Aves_sequences.fasta
+not more sequences (2) than cluster-size (100), turn off mBed
+Progressive alignment progress: 100 % (1 out of 1)Progressive alignment progress done. CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00
+Alignment written to tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta
++ '[' '!' -s tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta ']'
++ chmod 666 tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta
++ echo '=== STEP 2: DISTANCE MATRIX ==='
+=== STEP 2: DISTANCE MATRIX ===
++ command -v distmat
++ distmat -sequence tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta -protmethod 2 -outfile tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat -auto
++ '[' '!' -s tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat ']'
++ chmod 666 tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat
++ echo '=== STEP 3: TREE GENERATION ==='
+=== STEP 3: TREE GENERATION ===
++ python3 -
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-cn652xc2 because the default path (/var/www/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+=== PYTHON ENVIRONMENT ===
+Python version: 3.8.10 (default, Sep 11 2024, 16:02:53) 
+[GCC 9.4.0]
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+NameError: name 'Bio' is not defined
++ echo '=== PHYLOGENETIC TREE GENERATION ==='
+=== PHYLOGENETIC TREE GENERATION ===
+++ date
++ echo 'Start time: Fri Mar 28 05:12:44 GMT 2025'
+Start time: Fri Mar 28 05:12:44 GMT 2025
++ echo 'Job ID: job_67e62df283386'
+Job ID: job_67e62df283386
++ echo 'FASTA file: tmp/ABC transporters_Aves_sequences.fasta'
+FASTA file: tmp/ABC transporters_Aves_sequences.fasta
++ echo 'Results dir: tmp/job_67e62df283386_tree'
+Results dir: tmp/job_67e62df283386_tree
+++ whoami
++ echo 'Current user: www-data'
+Current user: www-data
+++ pwd
++ echo 'Working directory: /localdisk/home/s2713107/public_html/coursework/coursework/proba6'
+Working directory: /localdisk/home/s2713107/public_html/coursework/coursework/proba6
++ echo Environment:
+Environment:
++ printenv
+PWD=/localdisk/home/s2713107/public_html/coursework/coursework/proba6
+APACHE_LOG_DIR=/var/log/apache2
+LANG=C
+INVOCATION_ID=4ef02eb69d5a41d283a27446c840fa81
+APACHE_PID_FILE=/var/run/apache2/apache2.pid
+APACHE_RUN_GROUP=www-data
+APACHE_LOCK_DIR=/var/lock/apache2
+SHLVL=1
+APACHE_RUN_DIR=/var/run/apache2
+JOURNAL_STREAM=8:460731271
+APACHE_RUN_USER=www-data
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+OLDPWD=/
+_=/usr/bin/printenv
++ echo ===================================
+===================================
++ mkdir -vp tmp/job_67e62df283386_tree
++ chmod -v 777 tmp/job_67e62df283386_tree
+mode of 'tmp/job_67e62df283386_tree' retained as 0777 (rwxrwxrwx)
++ '[' '!' -f 'tmp/ABC transporters_Aves_sequences.fasta' ']'
++ ALIGN_FILE=tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta
++ DIST_MATRIX=tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat
++ TREE_NJ=tmp/job_67e62df283386_tree/job_67e62df283386_nj.tree
++ TREE_PGMA=tmp/job_67e62df283386_tree/job_67e62df283386_pgma.tree
++ PNG_NJ=tmp/job_67e62df283386_tree/job_67e62df283386_nj.png
++ PNG_PGMA=tmp/job_67e62df283386_tree/job_67e62df283386_pgma.png
++ echo '=== OUTPUT FILES ==='
+=== OUTPUT FILES ===
++ echo 'Alignment: tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta'
+Alignment: tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta
++ echo 'Distance matrix: tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat'
+Distance matrix: tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat
++ echo 'NJ Tree: tmp/job_67e62df283386_tree/job_67e62df283386_nj.tree'
+NJ Tree: tmp/job_67e62df283386_tree/job_67e62df283386_nj.tree
++ echo 'PGMA Tree: tmp/job_67e62df283386_tree/job_67e62df283386_pgma.tree'
+PGMA Tree: tmp/job_67e62df283386_tree/job_67e62df283386_pgma.tree
++ echo 'NJ PNG: tmp/job_67e62df283386_tree/job_67e62df283386_nj.png'
+NJ PNG: tmp/job_67e62df283386_tree/job_67e62df283386_nj.png
++ echo 'PGMA PNG: tmp/job_67e62df283386_tree/job_67e62df283386_pgma.png'
+PGMA PNG: tmp/job_67e62df283386_tree/job_67e62df283386_pgma.png
++ echo ====================
+====================
++ echo '=== STEP 1: SEQUENCE ALIGNMENT ==='
+=== STEP 1: SEQUENCE ALIGNMENT ===
++ command -v clustalo
++ clustalo -i 'tmp/ABC transporters_Aves_sequences.fasta' -o tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta --force --threads=1 --outfmt=fasta --verbose
+Using 1 threads
+Read 2 sequences (type: Protein) from tmp/ABC transporters_Aves_sequences.fasta
+not more sequences (2) than cluster-size (100), turn off mBed
+Progressive alignment progress: 100 % (1 out of 1)Progressive alignment progress done. CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00
+Alignment written to tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta
++ '[' '!' -s tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta ']'
++ chmod 666 tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta
++ echo '=== STEP 2: DISTANCE MATRIX ==='
+=== STEP 2: DISTANCE MATRIX ===
++ command -v distmat
++ distmat -sequence tmp/job_67e62df283386_tree/job_67e62df283386_aligned.fasta -protmethod 2 -outfile tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat -auto
++ '[' '!' -s tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat ']'
++ chmod 666 tmp/job_67e62df283386_tree/job_67e62df283386_dist.mat
++ echo '=== STEP 3: TREE GENERATION ==='
+=== STEP 3: TREE GENERATION ===
++ python3 -
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-gnbcezw7 because the default path (/var/www/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+=== PYTHON ENVIRONMENT ===
+Python version: 3.8.10 (default, Sep 11 2024, 16:02:53) 
+[GCC 9.4.0]
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+NameError: name 'Bio' is not defined

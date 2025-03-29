@@ -1,0 +1,20 @@
+Conservation Analysis Report
+===========================
+
+Analysis Parameters:
+- Window size: 4
+- Alignment file: job_67e5b5a70865e_aligned.aln
+- Sequences: 0
+
+Results Summary:
+- Plotcon analysis: Success
+- Shannon entropy analysis: Success
+
+Interpretation Tips:
+1. Low entropy regions (blue line) indicate conserved positions
+2. High conservation scores (green line) show identical residues
+3. Plotcon results show smoothed conservation over 4-residue windows
+
+Suggested Actions:
+- Check conserved regions against known domains in InterPro
+- Examine variable regions for potential functional adaptations

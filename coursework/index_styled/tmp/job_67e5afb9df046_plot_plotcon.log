@@ -1,0 +1,9 @@
+Starting conservation analysis...
+FASTA: /localdisk/home/s2713107/public_html/coursework/coursework/proba6/tmp/ABC transporters_Aves_sequences.fasta
+Alignment: /localdisk/home/s2713107/public_html/coursework/coursework/proba6/tmp/job_67e5afb9df046_aligned.aln
+Plot: /localdisk/home/s2713107/public_html/coursework/coursework/proba6/tmp/job_67e5afb9df046_plot.png
+Running plotcon...
+Plot conservation of a sequence alignment
+Created /localdisk/home/s2713107/public_html/coursework/coursework/proba6/tmp/job_67e5afb9df046_plot.1.png
+Copied /localdisk/home/s2713107/public_html/coursework/coursework/proba6/tmp/job_67e5afb9df046_plot.1.png to /localdisk/home/s2713107/public_html/coursework/coursework/proba6/tmp/job_67e5afb9df046_plot.png
+Successfully completed analysis

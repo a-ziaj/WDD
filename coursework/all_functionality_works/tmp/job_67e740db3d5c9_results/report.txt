@@ -1,0 +1,36 @@
+Conservation Analysis Report
+===========================
+
+Running Clustal Omega alignment...
+Alignment completed successfully.
+
+Running EMBOSS Plotcon (window size: 4)...
+Plot conservation of a sequence alignment
+Created tmp/job_67e740db3d5c9_results/plotcon.1.png
+Plotcon analysis completed. Graph saved as plotcon.png.
+
+Running Shannon Entropy analysis...
+
+=== Shannon Entropy Results ===
+Number of sequences: 2
+Alignment length: 384 residues
+Mean entropy: 0.000 bits
+Max entropy: -0.000 bits (position 1)
+Min entropy: -0.000 bits (position 1)
+
+Top 5 most conserved positions:
+Position 1: -0.000 bits
+Position 2: -0.000 bits
+Position 3: -0.000 bits
+Position 4: -0.000 bits
+Position 5: -0.000 bits
+
+Top 5 most variable positions:
+Position 380: -0.000 bits
+Position 381: -0.000 bits
+Position 382: -0.000 bits
+Position 383: -0.000 bits
+Position 384: -0.000 bits
+
+Analysis completed.
+Results saved in: tmp/job_67e740db3d5c9_results
